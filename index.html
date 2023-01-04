@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="./styles/index.css" />
+
+    <title>Frontend Mentor | Stats preview card component</title>
+  </head>
+  <body>
+    <div id="app">
+      <article class="stats-card">
+        <picture class="stats-card-img">
+          <source media="(min-width:1024px)" srcset="./images/image-header-desktop.jpg" />
+          <img src="./images/image-header-mobile.jpg" alt="Header"  />
+        </picture>
+
+        <section class="stats-card-body">
+          <h1 class="stats-card-title">
+            Get <strong>insights</strong> that help your bussines grow.
+          </h1>
+
+          <p class="stats-card-description">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur
+            modi, perspiciatis accusantium suscipit tempore eum facere?
+          </p>
+
+          <ul class="stats-card-highlights">
+            <li class="stats-card-highlight-item">
+              <div class="stat-value">10k+</div>
+              <div class="stat-heading">Companies</div>
+            </li>
+
+            <li class="stats-card-highlight-item">
+              <div class="stat-value">314</div>
+              <div class="stat-heading">Templates</div>
+            </li>
+
+            <li class="stats-card-highlight-item">
+              <div class="stat-value">12m+</div>
+              <div class="stat-heading">Queries</div>
+            </li>
+          </ul>
+        </section>
+      </article>
+    </div>
+  </body>
+</html>
